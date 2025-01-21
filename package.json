@@ -5,10 +5,10 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon backend/server.js",
+    "dev": "node backend/server.js",
     "build": "npm i && npm i --prefix frontend && npm run build --prefix frontend",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon backend/server.js"
+    "start": "node backend/server.js"
   },
   "author": "Jai Gobind Pal Singh",
   "license": "ISC",
