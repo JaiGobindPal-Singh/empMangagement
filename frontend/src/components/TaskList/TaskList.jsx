@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import { useContext } from 'react';
 import { AuthContext } from '../../context/AuthProvider';
-import Loader from '../loader/loader';
+import Loader from '../Loader/Loader.jsx';
 
 //this file contains display the tasks based on the type and status of task
 // const {employeesData,adminData} = await fetch(`${Port}/login`,{method:'POST'}).then(res=>res.json())

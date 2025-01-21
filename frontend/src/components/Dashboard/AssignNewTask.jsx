@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { AuthContext } from '../../context/AuthProvider'
 import { useContext } from 'react'
-import Loader from '../loader/loader'
+import Loader from '../Loader/Loader.jsx'
 import { useEffect } from 'react'
 const AssignNewTask = (props) => {
   const Port = useContext(AuthContext)

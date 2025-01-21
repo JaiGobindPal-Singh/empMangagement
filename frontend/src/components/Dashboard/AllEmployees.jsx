@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import EmployeeDetails from './EmployeeDetails'
 import { AuthContext } from '../../context/AuthProvider'
 import { useContext } from 'react'
-import Loader from '../loader/loader'
+import Loader from '../Loader/Loader.jsx'
 const AllEmployees = () => {
     const Port = useContext(AuthContext)
     const [loading, setLoading] = useState(false)

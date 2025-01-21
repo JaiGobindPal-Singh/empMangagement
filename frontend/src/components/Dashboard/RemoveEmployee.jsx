@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useState } from 'react'
 import { useContext } from 'react'
 import { AuthContext } from '../../context/AuthProvider'
-import Loader from '../loader/loader'
+import Loader from '../Loader/Loader.jsx'
 const RemoveEmployee = () => {
     const [Id, setId] = useState('')
     const [Email, setEmail] = useState('')

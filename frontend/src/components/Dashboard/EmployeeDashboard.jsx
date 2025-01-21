@@ -3,7 +3,7 @@ import Header from '../../Others/Header'
 import TaskListNumbers from '../../Others/TaskListNumbers'
 import { useMemo } from 'react'
 import { useContext } from 'react'
-import Loader from '../loader/loader'
+import Loader from '../Loader/Loader.jsx'
 import { AuthContext } from '../../context/AuthProvider'
 
 const EmployeeDashboard = () => {

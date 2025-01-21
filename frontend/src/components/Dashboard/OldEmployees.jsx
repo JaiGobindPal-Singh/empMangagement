@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { v4 as uuidv4 } from 'uuid'
 import { AuthContext } from '../../context/AuthProvider'
 import { useContext } from 'react'
-import Loader from '../loader/loader'
+import Loader from '../Loader/Loader.jsx'
 import { useState } from 'react'
 
 //fetch the old employees data from the database
