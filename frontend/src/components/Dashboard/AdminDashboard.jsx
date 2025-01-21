@@ -5,7 +5,7 @@ import AddEmployee from './AddEmployee';
 import RemoveEmployee from './RemoveEmployee';
 import OldEmployees from './OldEmployees';
 import { AuthContext } from '../../context/AuthProvider';
-import Loader from '../loader/loader';
+import Loader from '../Loader/Loader.jsx';
 const AdminDashboard = () => {
   const [loading, setLoading] = useState(false);
   const [employeesData, setEmployeesData] = useState([]);
@@ -75,6 +75,7 @@ const AdminDashboard = () => {
   if (loading) {
     return (<><Loader /></>)
   }
+ 
   return (
     <>
       {ModifyEmp === 'add' ? <>
